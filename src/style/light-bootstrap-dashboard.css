@@ -5350,3 +5350,24 @@ License - nucleoapp.com/license/
 .my-card {
   border-radius: 50%;
 }
+
+.MuiIcon-root {
+  visibility: hidden;
+}
+
+table,
+thead,
+tr,
+th,
+.MTableToolbar-root-5,
+.MTableHeader-header-13 {
+  background-color: #09015f !important;
+  color: #fff !important;
+}
+
+.MuiTablePagination-select,
+.MTablePaginationInner-root-14,
+.MuiSvgIcon-root,
+.MuiTypography-caption {
+  color: #fff !important;
+}

@@ -4,7 +4,11 @@ class Marketing extends Component {
   render() {
 
     return (
-        <h2>Marketing</h2>
+      <div className="content">
+        <div className="container-fluid">
+          
+        </div>
+      </div>
     )
   }
 }

@@ -4,7 +4,11 @@ class Settings extends Component {
   render() {
 
     return (
-        <h2>Settings</h2>
+      <div className="content">
+      <div className="container-fluid">
+        
+      </div>
+    </div>
     )
   }
 }

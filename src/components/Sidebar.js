@@ -14,31 +14,31 @@ class Sidebar extends Component {
           <ul className="nav">
             <li className="nav-item">
               <NavLink className="nav-link" to='/dashboard'>
-              <i class="fas fa-home fa-fw"></i>
+              <i className="fas fa-home fa-fw"></i>
                 <p>Home</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to='/portfolio'>
-              <i class="fas fa-chart-bar"></i>
+              <i className="fas fa-chart-bar"></i>
                 <p>Portfolios</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to='/marketing'>
-              <i class="fas fa-bullseye"></i>
+              <i className="fas fa-bullseye"></i>
                 <p>Marketing</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to='/profile'>
-              <i class="fas fa-user"></i>
+              <i className="fas fa-user"></i>
                 <p>User Profile</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to='/settings'>
-              <i class="fas fa-cog"></i>
+              <i className="fas fa-cog"></i>
                 <p>Settings</p>
               </NavLink>
             </li>
