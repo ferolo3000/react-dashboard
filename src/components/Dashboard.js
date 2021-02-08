@@ -15,9 +15,9 @@ class Dashboard extends Component {
         <div className="row">
         <div className="col-md-3">
             <div className="card  mx-sm-1 p-3">
-                <div className="card text-light text-center p-3 my-card" ><span className="fa fa-users fa-2x" aria-hidden="true"></span><h3 className="text">TOTAL USERS</h3></div>
+                <div className="text-dark text-center p-3" ><span className="fa fa-users fa-2x pb-3" aria-hidden="true"></span><h3 className="text">TOTAL USERS</h3></div>
                 <div className="text-light text-center mt-2">
-                <h1><CountUp
+                <h1 className="text-dark"><CountUp
                     className="account-balance"
                     start={0}
                     end={2500}
@@ -30,9 +30,9 @@ class Dashboard extends Component {
         </div>
         <div className="col-md-3">
             <div className="card  mx-sm-1 p-3">
-                <div className="card shadow text-light text-center p-3 my-card" ><span className="fa fa-globe fa-2x" aria-hidden="true"></span><h3>ONLINE USERS</h3></div>
+                <div className="text-dark text-center p-3" ><span className="fa fa-globe fa-2x pb-3" aria-hidden="true"></span><h3>ONLINE USERS</h3></div>
                 <div className="text-light text-center mt-2">
-                <h1><CountUp
+                <h1 className="text-dark"><CountUp
                     className="account-balance"
                     start={0}
                     end={235}
@@ -45,9 +45,9 @@ class Dashboard extends Component {
         </div>
         <div className="col-md-3">
             <div className="card  mx-sm-1 p-3">
-                <div className="card shadow text-light text-center p-3 my-card" ><span className="fa fa-history fa-2x" aria-hidden="true"></span><h3>LAST MONTH</h3></div>
+                <div className="text-dark text-center p-3" ><span className="fa fa-history fa-2x pb-3" aria-hidden="true"></span><h3>LAST MONTH</h3></div>
                 <div className="text-light text-center mt-2">
-                <h1><CountUp
+                <h1 className="text-dark"><CountUp
                     className="account-balance"
                     start={0}
                     end={340}
@@ -60,9 +60,9 @@ class Dashboard extends Component {
         </div>
         <div className="col-md-3">
             <div className="card  mx-sm-1 p-3">
-                <div className="card shadow text-light text-center p-3 my-card" ><span className="fa fa-calendar fa-2x" aria-hidden="true"></span><h3>CURRENT MONTH</h3></div>
+                <div className="text-dark text-center p-3" ><span className="fa fa-calendar fa-2x pb-3" aria-hidden="true"></span><h3>CURRENT MONTH</h3></div>
                 <div className="text-light text-center mt-2">
-                <h1><CountUp
+                <h1 className="text-dark"><CountUp
                     className="account-balance"
                     start={0}
                     end={645}
@@ -97,8 +97,8 @@ class Dashboard extends Component {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="open" stroke="#ff427f" activeDot={{ r: 8 }} />
-                    <Line type="monotone" dataKey="bounce" stroke="#d9ecf2" />
+                    <Line type="monotone" dataKey="open" stroke="#cc0e74" activeDot={{ r: 8 }} />
+                    <Line type="monotone" dataKey="bounce" stroke="#6886c5" />
                 </LineChart>
                   <hr />
                   <div className="stats">
@@ -127,8 +127,8 @@ class Dashboard extends Component {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="pv" stackId="a" fill="#ff427f" />
-                    <Bar dataKey="uv" stackId="a" fill="#d9ecf2" />
+                    <Bar dataKey="pv" stackId="a" fill="#cc0e74" />
+                    <Bar dataKey="uv" stackId="a" fill="#6886c5" />
                 </BarChart>
                 </div>
                 <div className="card-footer ">
