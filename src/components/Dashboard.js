@@ -15,7 +15,7 @@ class Dashboard extends Component {
         <div className="row">
         <div className="col-md-3">
             <div className="card  mx-sm-1 p-3">
-                <div className="card shadow text-light text-center p-3 my-card" ><span className="fa fa-users fa-2x" aria-hidden="true"></span><h3>TOTAL USERS</h3></div>
+                <div className="card text-light text-center p-3 my-card" ><span className="fa fa-users fa-2x" aria-hidden="true"></span><h3 className="text">TOTAL USERS</h3></div>
                 <div className="text-light text-center mt-2">
                 <h1><CountUp
                     className="account-balance"

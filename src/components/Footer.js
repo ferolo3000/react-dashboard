@@ -7,14 +7,6 @@ class Footer extends Component {
       <footer className="footer">
         <div className="container-fluid">
           <nav>
-            <ul className="footer-menu">
-              <li>
-                <Link to="/">
-                  Home
-                </Link>
-              </li>
-
-            </ul>
             <p className="copyright text-center">
              F3R © 2021
           </p>
